@@ -4809,6 +4809,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 297517029420867796, guid: c7c4e0cd666738b4ea509b5fc15d50e0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2887879258719739816, guid: c7c4e0cd666738b4ea509b5fc15d50e0, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -4856,6 +4860,18 @@ PrefabInstance:
     - target: {fileID: 2887879258719739819, guid: c7c4e0cd666738b4ea509b5fc15d50e0, type: 3}
       propertyPath: m_Name
       value: CameraRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 2887879259082897422, guid: c7c4e0cd666738b4ea509b5fc15d50e0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.12425184
+      objectReference: {fileID: 0}
+    - target: {fileID: 2887879259082897422, guid: c7c4e0cd666738b4ea509b5fc15d50e0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.19799304
+      objectReference: {fileID: 0}
+    - target: {fileID: 2887879259082897422, guid: c7c4e0cd666738b4ea509b5fc15d50e0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10
       objectReference: {fileID: 0}
     - target: {fileID: 2887879260373736357, guid: c7c4e0cd666738b4ea509b5fc15d50e0, type: 3}
       propertyPath: m_Follow
