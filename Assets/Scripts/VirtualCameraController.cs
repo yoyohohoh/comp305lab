@@ -17,7 +17,7 @@ public class VirtualCameraController : MonoBehaviour
 
     public void TransitionTo(GameObject cameraToTransitionTo)
     {
-        foreach(GameObject g in virtualCameras)
+        foreach(GameObject g in virtualCameras )
         {
             if(g == cameraToTransitionTo)
             {

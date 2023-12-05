@@ -41,6 +41,7 @@ public class PlayerController : MonoBehaviour
         {
             rBody.AddForce(new Vector2(0.0f, jumpForce));
             isGrounded = false;
+            //GetComponent<AudioSource>().Play();
         }
 
         rBody.velocity = new Vector2(horiz * speed, rBody.velocity.y);

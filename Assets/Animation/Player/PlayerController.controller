@@ -28,6 +28,29 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
+--- !u!114 &-8012192920986674294
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 510db72347cd63945953a71b25ec1d8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clip:
+  - {fileID: 8300000, guid: e08b739ebba87be4daf86cc9ada31e4b, type: 3}
+  - {fileID: 8300000, guid: 24329f9424654ac4e9d870e3645b3be7, type: 3}
+  - {fileID: 8300000, guid: 2c4a8c9bf922ed4418d4431e8a5bd9d7, type: 3}
+  - {fileID: 8300000, guid: cd68799d717a3ee4fb0a9c4ea65b943d, type: 3}
+  - {fileID: 8300000, guid: c8005c6036b7f974997b3572a232d4fe, type: 3}
+  - {fileID: 8300000, guid: 3ff2624a6f5ce0046a3791133f0c2152, type: 3}
+  - {fileID: 8300000, guid: b5038c70d224d9f4ba705fc9b0e04a09, type: 3}
+  - {fileID: 8300000, guid: d69bbd232e96abe49a69540c0ada77a8, type: 3}
+  - {fileID: 8300000, guid: b80de3db95f2fb142a85898e72fb28fd, type: 3}
+  - {fileID: 8300000, guid: e0f304ae532060b4084ac190c2af8b15, type: 3}
 --- !u!1101 &-7142079669405920484
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -79,7 +102,7 @@ AnimatorStateMachine:
     m_Position: {x: 540, y: 120, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -3647783886520578231}
-    m_Position: {x: 435.45813, y: 4.38591, z: 0}
+    m_Position: {x: 440, y: 0, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -103,7 +126,8 @@ AnimatorState:
   m_Transitions:
   - {fileID: -1561426594850762549}
   - {fileID: 4843317162514393495}
-  m_StateMachineBehaviours: []
+  m_StateMachineBehaviours:
+  - {fileID: -8012192920986674294}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
@@ -216,19 +240,19 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: yVelocity
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: isGrounded
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
